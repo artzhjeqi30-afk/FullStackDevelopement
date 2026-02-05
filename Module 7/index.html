@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 7</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Personal Information : </legend>
+
+
+    <!-- Sign up form with Text -->
+
+    <form>
+        <label for="firstname">First Name : </label> <br>
+        <input type="text" name="firstname" id="firstname" value="Art" readonly required> <br>
+
+        <label for="lastname">Last Name : </label> <br>
+        <input type="text" name="lastname" id="lastname" placeholder="Your Surname" required> <br>  
+
+        <label for="email">Email :</label> <br>
+        <input type="email" name="email" id="email" disabled> <br>
+
+        <label for="password">Password :</label> <br>
+        <input type="password" name="password" id="password" size="40"> <br> <br>
+
+
+
+        <!-- Radio Input  -->
+
+        <label> Gender : </label> <br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label> <br>
+
+        <label> Gender : </label> <br>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label> <br> <br>
+
+
+
+        <!-- Checkboxes -->
+
+        <label>Hobbies :</label> <br>
+        <input type="checkbox" name="gaming" id="gaming" value="Gaming">
+        <label for="gaming">Gaming</label> <br>
+
+        <input type="checkbox" name="football" id="football" value="Football">
+        <label for="football">Football</label> <br>
+
+        <input type="checkbox" name="swimming" id="swimming" value="Swimming">
+        <label for="swimming">Swimming</label> <br> <br>
+
+
+        <!-- Select -->
+         
+        <label>Choose your pet :</label>
+        <select name="pet" id="pet">
+            <option value=""></option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="parrot">Parrot</option>
+        </select>
+        <br><br>
+
+        
+        <!-- Text Area -->
+
+        <textarea name="message" rows="10" cols="20" maxlength="50"></textarea> <br> <br>
+
+
+        <input type="submit" name="submit" id="submit"> <br> <br>
+
+        </fieldset>
+    </form>
+
+    <hr>
+    <br>
+
+    <!-- Semantics -->
+
+    <article>
+        <h2>
+            HTML
+        </h2>
+
+        <p>
+            HTML (HyperText Markup Language) is the standard markup language used to create and structure content
+             on the World Wide Web. It acts as the "skeleton" of a webpage, defining elements like headings, paragraphs,
+             images, and links, which web browsers then interpret and display to the user. 
+        </p>
+    </article>
+
+    <details>
+        <summary>Digital School</summary>
+        <p>Institution which offers programming courses for students</p>
+    </details>
+
+    <br>
+    <hr>
+    <br>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>This course will teach you how to create web pages like HTML, CSS and JavaScript</p>
+    </section>
+    
+
+
+
+
+</body>
+</html>
