@@ -17,6 +17,7 @@ p{
 .blue{
     color: blue;
     text-decoration: overline;
+    font-weight: 500;
 }
 
 .red{
@@ -45,3 +46,4 @@ a:active{
     color: purple;
     text-decoration: line-through;
 }
+
