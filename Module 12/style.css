@@ -1,0 +1,47 @@
+p{
+    color: blue;
+    text-decoration: overline;
+    /* 
+    text-decoration: line-through;
+    text-decoration: underline;
+    */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Ekuqe{
+    color: red;
+    text-decoration: line-through;
+}
+
+.blue{
+    color: blue;
+    text-decoration: overline;
+}
+
+.red{
+    color: red;
+    text-decoration: underline;
+}
+
+#dizajni{
+    font-family: fantasy;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: chartreuse;
+    text-decoration: overline;
+}
+
+a:active{
+    color: purple;
+    text-decoration: line-through;
+}
