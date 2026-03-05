@@ -1,0 +1,17 @@
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+
+@font-face {
+    font-family: 'coder';
+    src: url(fonts/SemiCoderT.ttf);
+}
+
+h2{
+    font-family: 'coder';
+} 
