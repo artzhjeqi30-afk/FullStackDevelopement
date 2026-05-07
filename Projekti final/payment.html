@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo" class="logo">
+        <h1>Digital Store</h1>
+        <search>
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </search>
+    </header>
+
+    <nav>
+
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="payment.html">Payment</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <div>
+        <div class="payment">
+            <h2>Pagesa</h2>
+            <p>Plotesoni te dhenat per te finalizuar blerjen tuaj</p>
+        </div>
+
+        <form class="form" action="confirmation.html" method="post">
+            <label for="name">Emri:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="address">Adresa:</label>
+            <input type="text" name="address" id="address" required>
+
+            <label for="pay">Menyra e Pageses:</label>
+            <select name="pay" id="pay">
+                <option value="cash">Cash</option>
+                <option value="visa">Visa</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <label for="cardnumber">Numri i karteles:</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="XXXX XXXX XXXX XXXX" required>
+
+            <label for="expiry">Data e skadimit:</label>
+            <input type="text" name="expiry" id="expiry" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" name="cvv" id="cvv" maxlength="4" required>
+
+            <a href="confirmation.html" class="btn">Paguaj</a>
+
+
+        </form>
+    </div>
+</body>
+</html>
