@@ -34,13 +34,23 @@ var audia = {
     type : 'A6',
     color : 'White',
     viti_i_prodhimit : 2016,
+    kilometra : 150.000,
     karburanti : 'Benzina',
     engine:function(){
         alert('Vrommm')
+    },
+    get getkilometra(){
+        return this.kilometra;
+    },
+    set setkilometra(km){
+        this.km= km;
     }
 }
 
 audia.engine();
+console.log(audia.getkilometra)
+audia.setkilometra = 200000;
+console.log(audia.getkilometra)
 
 var grupi_7 = {
     niveli : 'Web advanced',
