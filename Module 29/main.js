@@ -38,3 +38,9 @@ console.log(g1);
 console.log(first);
 console.log(third);
 console.log(others);
+
+
+var average_age = [10, 22, 38, 69, 57];
+var [a1,a2,a3,a4,a5] = average_age;
+
+console.log((a1+a2+a3+a4+a5) / 5);
