@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 7px;
+}
+
+.form button{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 7px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.message{
+    color: red;
+    font-size: 20px;
+    font-family:monospace
+}
+
+.success{
+    color: green;
+    font-size: 20px;
+    font-family:monospace
+}
